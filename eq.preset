@@ -1,0 +1,25 @@
+[Jazz]
+Preamp=-1
+Band0=4
+Band1=1
+Band2=2
+Band3=3
+Band4=2
+Band5=1
+Band6=-2
+Band7=3
+Band8=1
+Band9=2
+
+##This is a Jazz preset for audacious, I have found that lowering the preamp lowers the distortion, I am not an audiophile of any kind.
+
+##HOW TO USE: 
+## 1. go to ~/.config/audacious
+## 2. open the file "eq.preset" in a text editor
+## 3. paste the text above the hashed text in the file, preferebly at the end of the file.
+## 4. add "PresetX=Jazz" to the list at the top of the file, with "X" replaced with the next number in the list (audacious counts from 0 onwards)
+## EXAMPLE:
+###Preset0=Rock
+###Preset1=Classic
+###Preset2=UrMum
+###Preset3=Jazz
